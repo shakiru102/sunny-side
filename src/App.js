@@ -30,7 +30,7 @@ const [avatar, setavatar] = useState([
   { img: Emily , name: 'Emily R.', cont: 'We put our trust and they delivered, making sure our needs were met and deadlines were always hit.', title: 'Marketing Director' }
 ])
 const [images, setimages] = useState([Bottles, Orange, Cone, Cubes])
-const [mobleNav, setmobleNav] = useState('top-0')
+const [mobleNav, setmobleNav] = useState('-top-full')
 const showNav = () => {
   mobleNav === 'top-0' ? setmobleNav('-top-full') : setmobleNav('top-0')
 }
