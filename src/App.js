@@ -1,4 +1,4 @@
-import './app.css';
+import './main.css';
 import { useState } from 'react'
 import Arrow from './assets/icon-arrow-down.svg'
 import Egg from './assets/desktop/image-transform.jpg'
