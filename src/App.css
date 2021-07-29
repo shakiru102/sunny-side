@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+.first-grid{
+    background: url('./assets/desktop/image-header.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.apple{
+    position: relative;
+    background: url('./assets/desktop/image-graphic-design.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 600px;
+    
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.orange{
+    position: relative;
+    background: url('./assets/desktop/image-photography.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 600px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dis{
+    background: rgb(79, 190, 255);
+    display: inline-block;
+    width: 100%;
+    border-top: solid 20px transparent;
+    border-right: solid 10px white;
 }
-
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 800px ) {
+    .apple{
+        position: relative;
+        background: url('./assets/desktop/image-graphic-design.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        height: 400px;
+        
+    }
+    .orange{
+        position: relative;
+        background: url('./assets/desktop/image-photography.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        height: 400px;
+    }
 }
+@media screen and (max-width: 600px ) {
+    .first-grid{
+    background: url('./assets/mobile/image-header.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .apple{
+    position: relative;
+    background: url('./assets/desktop/image-graphic-design.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 400px;
+    
+}
+.orange{
+    position: relative;
+    background: url('./assets/desktop/image-photography.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 400px;
+}
 }
