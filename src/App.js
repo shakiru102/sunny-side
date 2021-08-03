@@ -1,5 +1,5 @@
 import './main.css';
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Arrow from './assets/icon-arrow-down.svg'
 import Egg from './assets/desktop/image-transform.jpg'
 import Cup from './assets/desktop/image-stand-out.jpg'
@@ -34,6 +34,8 @@ const [mobleNav, setmobleNav] = useState('-top-full')
 const showNav = () => {
   mobleNav === 'top-0' ? setmobleNav('-top-full') : setmobleNav('top-0')
 }
+
+ useEffect(() =>  { setmobleNav('-top-full') }, [])
 
   return ( 
     <>
